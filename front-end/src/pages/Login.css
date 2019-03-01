@@ -1,0 +1,18 @@
+/* I don't know why but the css is getting in all pages */
+
+body{
+    background-color: #f5f5f5;
+}
+
+.vertical-align{
+    padding-top: 10vw;
+}
+
+.fullWidthWithSpace{
+    width: 100%;
+    margin-top: .5rem;
+}
+
+.margin-bot{
+    margin-bottom: 2vw;
+}
