@@ -14,11 +14,13 @@ export default class CreateUser extends Component {
         alertVariant: '',
     };
 
-    handleInputChange = (e) => {
-        this.setState({ [e.target.name]: e.target.value });
+    handleInputChange = e => {
+        this.setState({ 
+            [e.target.name]: e.target.value
+        });
     };
 
-    handleSubmit = async (e) => {
+    handleSubmit = async e => {
         e.preventDefault();
         this.setState({ alert: false });
         const { name, email, password, dateOfBirth } = this.state;
@@ -75,7 +77,7 @@ export default class CreateUser extends Component {
                             <Button variant="btn btn-outline-dark" block type="submit">
                                 Cadastrar
                             </Button>
-                            <Link className="btn btn-outline-dark fullWidthWithSpace" to={'/'} >
+                            <Link className="btn btn-outline-dark fullWidthWithSpace" to="/" >
                                 Voltar
                             </Link>
                         </Col>
