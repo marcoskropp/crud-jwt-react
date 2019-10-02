@@ -19,19 +19,19 @@ module.exports = {
                     { expiresIn: '24h' }
                 );
 
-                res.json({
+                return res.json({
                     success: true,
                     message: 'Autenticado com sucesso!',
                     token: token,
                 });
             } else {
-                res.json({
+                return res.json({
                     success: false,
                     message: 'Email ou senha incorreto!',
                 });
             }
         } else {
-            res.json({
+            return res.json({
                 success: false,
                 message: 'Email não cadastrado!',
             });
