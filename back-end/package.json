@@ -9,7 +9,7 @@
     "jsonwebtoken": "^8.5.0",
     "mongoose": "^5.4.14",
     "mongoose-paginate": "^5.0.3",
-    "socket.io": "^2.2.0"
+    "socket.io": "^2.4.0"
   },
   "devDependencies": {
     "nodemon": "^1.18.9"
